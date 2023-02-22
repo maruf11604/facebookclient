@@ -21,7 +21,6 @@ const style = {
   };
 
 
-
 const Table=({item,i,deleteUser,editUser})=>{
     const [deleteOpen, setDeleteOpen] = useState(false);
     const handleOpen = () => setDeleteOpen(true);
